@@ -1,0 +1,14 @@
+To look at the last five records in a DataFrame, you can use the tail() method.
+
+Here’s how you can do it:
+
+Python
+
+import pandas as pd
+
+# Assuming df is your DataFrame
+last_five_records = df.tail()
+
+print(last_five_records)
+AI-generated code. Review and use carefully. More info on FAQ.
+This will display the last five rows of the DataFrame

@@ -1,0 +1,28 @@
+To load a .csv file in Python, you can use the built-in csv module or the pandas library. Here are examples of both methods:
+
+Using the csv Module
+Python
+
+import csv
+
+# Open the CSV file
+with open('example.csv', mode='r') as file:
+    # Create a CSV reader object
+    csv_reader = csv.reader(file)
+    
+    # Iterate over each row in the CSV file
+    for row in csv_reader:
+        print(row)
+AI-generated code. Review and use carefully. More info on FAQ.
+Using the pandas Library
+Python
+
+import pandas as pd
+
+# Load the CSV file into a DataFrame
+df = pd.read_csv('example.csv')
+
+# Display the DataFrame
+print(df)
+AI-generated code. Review and use carefully. More info on FAQ.
+The pandas library is particularly useful for data analysis and manipulation, offering more functionality and ease of use compared to the csv module12.

@@ -1,0 +1,2 @@
+How can you get the frequency of different levels in a categorical column?
+To get the frequency of different levels in a categorical column, you should use the df['column'].value_counts() method.
